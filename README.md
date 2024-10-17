@@ -16,25 +16,23 @@ The purpose of this project was to practice and demonstrate the foundational pri
 
 The project has been hosted on **Vercel**. You can view the live version of the website by visiting the following link:
 
-[Live Demo Link](#)
-
-_(Link will be updated once the site is hosted.)_
+[Live Demo Link](in-class-demo.vercel.app)
 
 ## Website Screenshots
 
 Here are some screenshots of the website for reference:
 
 1. **Homepage**  
-   ![Homepage Screenshot](https://github.com/Ningsang-Jabegu/In-class-demo/homepage-screenshot.png)
+   ![Homepage Screenshot](https://github.com/Ningsang-Jabegu/In-class-demo/blob/main/homepage-screenshot.png)
 
 2. **About Page**  
-   ![About Page Screenshot](https://github.com/Ningsang-Jabegu/In-class-demo/about-screenshot.png)
+   ![About Page Screenshot](https://github.com/Ningsang-Jabegu/In-class-demo/blob/main/about-screenshot.png)
 
 3. **Gallery Page**  
-   ![Gallery Page Screenshot](https://github.com/Ningsang-Jabegu/In-class-demo/gallery-screenshot.png)
+   ![Gallery Page Screenshot](https://github.com/Ningsang-Jabegu/In-class-demo/blob/main/gallery-screenshot.png)
 
 4. **Contact Page**  
-   ![Contact Page Screenshot](https://github.com/Ningsang-Jabegu/In-class-demo/contact-screenshot.png)
+   ![Contact Page Screenshot](https://github.com/Ningsang-Jabegu/In-class-demo/blob/main/contact-screenshot.png)
 
 ## Folder Structure
 
