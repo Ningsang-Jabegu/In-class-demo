@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gallary</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Container to wrap everything -->
+    <div id="container">
+        <header  style="font-size: 60px; color: #fff;">My Web Site Brand</header>
+        <!-- Main Navigation-->
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="page4.html">Gallary</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </nav>
+        <!-- End Navigation-->
+    </div>
+    <!-- End Container-->
+    <main>
+        <h1>My Fourth Heading</h1>
+        <p>This is my Fourth paragraph</p>
+        
+        <ul id="album">
+            <!--<li class="photo"><img src="images/winterland1.jpg" alt="Winter Land Image 1"></li>
+            <li class="photo"><img src="images/winterland2.jpg" alt="Winter Land Image 2"></li>
+            <li class="photo"><img src="images/winterland3.jpg" alt="Winter Land Image 3"></li>
+            <li class="photo"><img src="images/winterland4.jpg" alt="Winter Land Image 4"></li>
+            <li class="photo"><img src="images/winterland5.jpg" alt="Winter Land Image 5"></li>
+            <li class="photo"><img src="images/winterland6.jpg" alt="Winter Land Image 6"></li>-->
+        </ul>
+    </main>
+    <footer>&copy; copyright :: 2021</footer>
+</body>
+<!-- End Container-->
+
+<script>
+    var photos = [];
+    var fileNames = [];
+    var imageList = [];
+    var image;
+    var openList = "<li class='photo'>";
+    var closeList = "</li>";
+
+    //Creat a loop to creat 6 images starting with index of 0
+    for (var i=0; i<6; i++) {
+        fileNames.push("winterland"+(i+1));
+        photos.push("<img src='images/"+fileNames[i]+".jpg'>");
+        image = openList + photos[i] + closeList;
+        imageList.push(image);
+    }
+
+    //Display all six image codes stored in the array
+    document.getElementById("album").innerHTML = imageList.join();
+</script>
+</html>
