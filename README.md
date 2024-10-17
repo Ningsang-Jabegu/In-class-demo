@@ -38,3 +38,18 @@ Here are some screenshots of the website for reference:
 
 The folder structure for this project is as follows:
 
+```bash
+/
+
+|-- /images
+    |-- central_park.jpg
+    |-- east-village.jpg
+    |-- winterland1.jpg
+    |-- winterland2.jpg
+    |-- winterland3.jpg
+    |-- winterland4.jpg
+    |-- winterland5.jpg
+    |-- winterland6.jpg
+|-- //rest are shown above in root directory of this repo
+
+```
